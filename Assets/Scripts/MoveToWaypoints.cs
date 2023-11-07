@@ -19,9 +19,9 @@ public class MoveToWaypoints : MonoBehaviour
         //Vector3 TargetPosition = new Vector3(wayPoints[index].transform.position.x, wayPoints[index].transform.position.y, wayPoints[index].transform.position.z);
         //transform.LookAt(TargetPosition);
 
-        var targetRot = wayPoints[index].transform.position - transform.position;
+        
         float singleStep = speed * Time.fixedDeltaTime;
-
+        var targetRot = transform.position - transform.position;
         Vector3 newDir = Vector3.RotateTowards(transform.position, targetRot, singleStep, 0f);
 
         // only rotate on y-axis
@@ -38,6 +38,7 @@ public class MoveToWaypoints : MonoBehaviour
         {
             if (index < wayPoints.Count - 1)
             {
+                targetRot = wayPoints[index].transform.position - transform.position;
                 index++;
             }
             else
