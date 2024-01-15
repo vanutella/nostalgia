@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 52
+  m_Shader: {fileID: 4800000, guid: 38914eb10ed1ba247b614b138f67c0a3, type: 3}
+  m_ShaderKeywords: STANDARD _USESTANDARD_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b5b200af65c257445b89603f5c9504a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendExponent: 2
+    - _BlendOffset: 0.25
+    - _BumpScale: 1
+    - _ColorBlendLerp: 0.5
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EmissionColor1Intensity: 0
+    - _EmissionColor1IntensityBlend: 0
+    - _EmissionColor2Intensity: 0
+    - _EmissionColor2IntensityBlend: 0
+    - _EmissionColor3Intensity: 0
+    - _EmissionColor3IntensityBlend: 0
+    - _EmissionColor4Intensity: 0
+    - _EmissionColor4IntensityBlend: 0
+    - _FlipHorizontal: 0
+    - _FlipVertical: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GridMult: 2
+    - _GridSize: 0.5
+    - _GridStrength: 1
+    - _HasColorBlend: 0
+    - _HasPBR: 0
+    - _HasRotation: 0
+    - _Metallic: 0
+    - _MetalnessColor1: 0
+    - _MetalnessColor1Blend: 0
+    - _MetalnessColor2: 0
+    - _MetalnessColor2Blend: 0
+    - _MetalnessColor3: 0
+    - _MetalnessColor3Blend: 0
+    - _MetalnessColor4: 0
+    - _MetalnessColor4Blend: 0
+    - _Mode: 0
+    - _NormalColor1B: 0.5
+    - _NormalColor1BBlend: 0.5
+    - _NormalColor1N: 0.5
+    - _NormalColor1NBlend: 0.5
+    - _NormalColor1T: 0.5
+    - _NormalColor1TBlend: 0.5
+    - _NormalColor2B: 0.5
+    - _NormalColor2BBlend: 0.5
+    - _NormalColor2N: 0.5
+    - _NormalColor2NBlend: 0.5
+    - _NormalColor2T: 0.5
+    - _NormalColor2TBlend: 0.5
+    - _NormalColor3B: 0.5
+    - _NormalColor3BBlend: 0.5
+    - _NormalColor3N: 0.5
+    - _NormalColor3NBlend: 0.5
+    - _NormalColor3T: 0.5
+    - _NormalColor3TBlend: 0.5
+    - _NormalColor4B: 0.5
+    - _NormalColor4BBlend: 0.5
+    - _NormalColor4N: 0.5
+    - _NormalColor4NBlend: 0.5
+    - _NormalColor4T: 0.5
+    - _NormalColor4TBlend: 0.5
+    - _OcclusionColor1: 1
+    - _OcclusionColor1Blend: 1
+    - _OcclusionColor2: 1
+    - _OcclusionColor2Blend: 1
+    - _OcclusionColor3: 1
+    - _OcclusionColor3Blend: 1
+    - _OcclusionColor4: 1
+    - _OcclusionColor4Blend: 1
+    - _OcclusionStrength: 1
+    - _OcclusionStrengthBlend: 1
+    - _Parallax: 0.02
+    - _Rotation: 0
+    - _SmoothnessColor1: 0.5
+    - _SmoothnessColor1Blend: 0.5
+    - _SmoothnessColor2: 0.5
+    - _SmoothnessColor2Blend: 0.5
+    - _SmoothnessColor3: 0.5
+    - _SmoothnessColor3Blend: 0.5
+    - _SmoothnessColor4: 0.5
+    - _SmoothnessColor4Blend: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TextureNumber: 52
+    - _TextureStartLayer: 13
+    - _TextureStartX: 0
+    - _TextureStartY: 0
+    - _UVSec: 0
+    - _UseStandard: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0, g: 0, b: 0, a: 1}
+    - _Color1Blend: {r: 0, g: 0, b: 0, a: 1}
+    - _Color2: {r: 0.33299997, g: 0.33299997, b: 0.33299997, a: 1}
+    - _Color2Blend: {r: 0.33299997, g: 0.33299997, b: 0.33299997, a: 1}
+    - _Color3: {r: 0.666, g: 0.666, b: 0.666, a: 1}
+    - _Color3Blend: {r: 0.666, g: 0.666, b: 0.666, a: 1}
+    - _Color4: {r: 1, g: 1, b: 1, a: 1}
+    - _Color4Blend: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorBlendUV: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor1: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor1Blend: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor2: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor2Blend: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor3: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor3Blend: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor4: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor4Blend: {r: 0, g: 0, b: 0, a: 1}
+    - _GridStart: {r: 0, g: 0, b: 13, a: 0}
+    - _MainOffset: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

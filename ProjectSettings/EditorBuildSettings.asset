@@ -14,7 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FloatingItems.unity
     guid: adce4d6f9a8aa4f499c0dc4362114b53
+  - enabled: 1
+    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/RayExamples.unity
+    guid: 1b2d3f90c0f50b94cb910c66c773d00d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9c90ed9ad51a4ab478e4428a5373b067, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 504a96856a9b141439768363fed83a59, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b11d710c001d6c24e9ed7f7303927722, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fa9b96e40eb9e5841a1f42dec2fdaeec, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4f914661adb76fc4ba39a86dc8c2dd09, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 0aca6016e83fdda44823cbcf12217438, type: 2}

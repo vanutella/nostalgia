@@ -26,7 +26,9 @@ public class MoveToWaypoints : MonoBehaviour
 
         // only rotate on y-axis
        // newDir.y = 0;
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(-newDir), 4f * Time.deltaTime);
+       // transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(-newDir), 4f * Time.deltaTime);
+        newDir = new Vector3(0,0,0);
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(newDir), 4f * Time.deltaTime);
 
 
 
