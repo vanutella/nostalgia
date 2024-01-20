@@ -1,0 +1,13 @@
+newmtl PortalMask
+Kd 0.800000 0.800000 0.800000
+Tf 1.000000 1.000000 1.000000
+illum 1
+d 0.000000
+Ni 1.000000
+map_Kd EffFrogPortalMask.png
+
+newmtl Portal
+Kd 0.800000 0.800000 0.800000
+illum 1
+map_Kd EffFrogPortalMask.png
+map_d EffFrogPortalMask.png

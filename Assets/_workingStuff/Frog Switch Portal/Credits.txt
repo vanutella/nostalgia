@@ -1,0 +1,22 @@
+Wario Land 4: Frog Switch Portal
+
+Model and all textures made from scratch by Peardian using Cinema 4D and Fireworks.
+
+
+Info:
+This is a 3D recreation of the portals in Wario Land 4 and the portal transition screen.
+A mask mesh is provided for engines that can allow invisible polygons to hide the portal's true depth.
+The base colors are picked directly from the game to make them as accurate as possible.
+Both models use a mask texture to display two layers of scrolling color gradients on the same UVs.
+For the tunnel, the black part of the mask is for Cycle1 and the white part is for Cycle2.
+The scale of these Cycle textures can be raised to make the colors cycle more frequently.
+For the portal, both colors come from the same Cycle texture, but with the horizontal scale set to 6400%.
+However, the second layer (white part of the mask) should be offset to the right by 1/4th.
+The portal colors cycle between red-yellow-green-blue, and the second layer should always be one step ahead of the first layer.
+If this is too complicated to implement, animated color cycles can be used instead of the gradient textures.
+
+If you have any comments or questions, my e-mail address is peardian@gmail.com
+I have never done any Brawl hacking, nor do I know how. Please don't ask me to help you.
+
+
+Wario Land 4 belongs to Nintendo

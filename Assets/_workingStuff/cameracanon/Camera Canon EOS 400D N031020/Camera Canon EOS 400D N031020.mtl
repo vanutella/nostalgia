@@ -1,0 +1,80 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 03.10.2020 09:27:18
+
+newmtl st_tile
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9216 0.9216 0.9216
+	Ks 0.6300 0.6300 0.6300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder 2\BaseColo.jpg
+	map_Kd D:\New folder 2\BaseColo.jpg
+
+newmtl st_fist
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8078 0.8706 0.7686
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder 2\Cilindro.jpg
+	map_Kd D:\New folder 2\Cilindro.jpg
+
+newmtl clear_window
+	Ns 30.0000
+	Ni 1.5000
+	d 0.8000
+	Tr 0.8000
+	Tf 0.8000 0.8000 0.8000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5765 0.6235 0.7373
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.1441 0.1559 0.1843
+
+newmtl mat_steklo
+	Ns 30.0000
+	Ni 1.5000
+	d 0.8000
+	Tr 0.8000
+	Tf 0.8000 0.8000 0.8000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7882 0.7451 0.7059
+	Ks 1.0000 1.0000 1.0000
+	Ke 0.1971 0.1863 0.1765
+
+newmtl broun
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6784 0.5216 0.4353
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder 2\ruleta_l.jpg
+	map_Kd D:\New folder 2\ruleta_l.jpg
+
+newmtl _Cameraruleta_2
+	Ns 1.4500
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000

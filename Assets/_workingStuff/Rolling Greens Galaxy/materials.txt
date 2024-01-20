@@ -1,0 +1,283 @@
+Block_00_v
+==========
+  Textures:
+    - Block_00
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (vertex RGB)
+         A = (lerp from 180 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+
+
+
+Concrete_v
+==========
+  Textures:
+    - Concrete_00
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (vertex RGB)
+         A = (lerp from 180 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+
+
+
+Grass_00_v
+==========
+  Textures:
+    - grass
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (vertex RGB)
+         A = (lerp from 180 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+
+
+
+Grass_01_v
+==========
+  Textures:
+    - LawnA
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (vertex RGB)
+         A = (lerp from 180 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+
+
+
+Kabe_00_v
+=========
+  Textures:
+    - Kabe_00
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (vertex RGB)
+         A = (lerp from 180 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+
+
+
+Soil_00_v
+=========
+  Textures:
+    - Soil_00
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (vertex RGB)
+         A = (lerp from 180 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+
+
+
+flowerleaf_v
+============
+  Textures:
+    - puffleaf
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Material Colors:
+    - 204, 204, 204, 255
+    - 204, 204, 204, 255
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = ((tex #1 A) * (vertex A))
+
+
+
+metal_v
+=======
+  Textures:
+    - ChafeMetal
+    - LavaGaraxyEnvMap
+        Center: 1, 1
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 199
+
+  Color Registers:
+    - 236, 236, 236, 101
+    - 4, 64, 109, 368
+
+  Steps:
+    1: RGB = ((vertex RGB) * (tex #2 RGB))
+         A = (lerp from 199 to 0 using (vertex A)), multiply by 4
+    2: RGB = (lerp from (prev. RGB) to (vertex RGB) using (tex #1 RGB)), then add (prev. A)
+         A = 0, then add (prev. A)
+
+
+
+parpleflower_v
+==============
+  Textures:
+    - parplehanataba
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Material Colors:
+    - 204, 204, 204, 255
+    - 204, 204, 204, 255
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = ((tex #1 A) * (vertex A))
+
+
+
+wds_v
+=====
+  Textures:
+    - wds_00
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (vertex RGB)
+         A = (lerp from 180 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+
+
+
+whiteflower_v
+=============
+  Textures:
+    - whitetaba
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Material Colors:
+    - 204, 204, 204, 255
+    - 204, 204, 204, 255
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = ((tex #1 A) * (vertex A))
+
+
+
+yellowflower_v
+==============
+  Textures:
+    - yellowhanataba
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Material Colors:
+    - 204, 204, 204, 255
+    - 204, 204, 204, 255
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = ((tex #1 A) * (vertex A))

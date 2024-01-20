@@ -1,0 +1,27 @@
+Tone_v
+======
+  Textures:
+    - HalfTone_00
+    - HighLightSample
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (vertex RGB)
+         A = (lerp from 180 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+    3: RGB = (tex #2 RGB), then add (prev. RGB)
+         A = (prev. A)

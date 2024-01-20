@@ -1,0 +1,49 @@
+newmtl mtl_Tex0__Unlit__None
+Ka 0.00000 0.00000 0.00000
+Kd 0.50000 0.50000 0.50000
+Ks 0.00000 0.00000 0.00000
+d 1.00000
+illum 0
+map_Kd F1_D_Surface_S.png
+newmtl mtl_Tex2__VertexColor__None
+Ka 0.00000 0.00000 0.00000
+Kd 0.50000 0.50000 0.50000
+Ks 0.00000 0.00000 0.00000
+d 1.00000
+illum 0
+map_Kd F1_Surface_Sand.png
+newmtl mtl_Tex2__Unlit__None
+Ka 0.00000 0.00000 0.00000
+Kd 0.50000 0.50000 0.50000
+Ks 0.00000 0.00000 0.00000
+d 1.00000
+illum 0
+map_Kd F1_Surface_Sand.png
+newmtl mtl_Tex3__Unlit__Wall
+Ka 0.00000 0.00000 0.00000
+Kd 0.50000 0.50000 0.50000
+Ks 0.00000 0.00000 0.00000
+d 1.00000
+illum 0
+map_Kd F1_Rock08.png
+newmtl mtl_Tex1__VertexColor__Wall
+Ka 0.00000 0.00000 0.00000
+Kd 0.50000 0.50000 0.50000
+Ks 0.00000 0.00000 0.00000
+d 1.00000
+illum 0
+map_Kd F1_ground.png
+newmtl mtl_Tex1__VertexColor__None
+Ka 0.00000 0.00000 0.00000
+Kd 0.50000 0.50000 0.50000
+Ks 0.00000 0.00000 0.00000
+d 1.00000
+illum 0
+map_Kd F1_ground.png
+newmtl mtl_Tex1__Unlit__None
+Ka 0.00000 0.00000 0.00000
+Kd 0.50000 0.50000 0.50000
+Ks 0.00000 0.00000 0.00000
+d 1.00000
+illum 0
+map_Kd F1_ground.png

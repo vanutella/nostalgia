@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.2.1 commit date:2022-07-05, commit time:15:44, hash:a2d59b2dac9e</authoring_tool>
+    </contributor>
+    <created>2022-07-28T20:22:07</created>
+    <modified>2022-07-28T20:22:07</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="YELLOW-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 0 1</color>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="YELLOW-material" name="YELLOW">
+      <instance_effect url="#YELLOW-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="LWMobj-mesh" name="LWMobj">
+      <mesh>
+        <source id="LWMobj-mesh-positions">
+          <float_array id="LWMobj-mesh-positions-array" count="48">0 678.132 33.9066 406.8792 0 33.9066 203.4396 0 33.9066 271.2528 -678.132 33.9066 0 -542.5056 33.9066 -271.2528 -678.132 33.9066 -203.4396 0 33.9066 -406.8792 0 33.9066 -287.1082 67.8132 101.7198 0 546.3268 101.7198 287.1082 67.8132 101.7198 128.5069 67.8132 101.7198 191.5337 -562.455 101.7198 0 -466.6882 101.7198 -191.5337 -562.455 101.7198 -128.5069 67.8132 101.7198</float_array>
+          <technique_common>
+            <accessor source="#LWMobj-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="LWMobj-mesh-normals">
+          <float_array id="LWMobj-mesh-normals-array" count="45">0 0 1 0 0 1 0 -0.7071068 0.7071068 -0.6063391 0.3638035 0.7071068 0.606339 0.3638035 0.7071068 0.7035976 0.07035976 0.7071068 -0.3162276 -0.6324553 0.7071071 0.3162277 -0.6324553 0.707107 -0.7035976 0.07035976 0.7071067 -0.606339 0.3638035 0.7071068 0.6063392 0.3638035 0.7071068 0.7035976 0.07035976 0.7071068 -0.3162277 -0.6324553 0.707107 0.3162277 -0.6324555 0.7071068 -0.7035976 0.07035976 0.7071068</float_array>
+          <technique_common>
+            <accessor source="#LWMobj-mesh-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="LWMobj-mesh-vertices">
+          <input semantic="POSITION" source="#LWMobj-mesh-positions"/>
+        </vertices>
+        <triangles material="YELLOW-material" count="22">
+          <input semantic="VERTEX" source="#LWMobj-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#LWMobj-mesh-normals" offset="1"/>
+          <p>15 0 11 0 9 0 11 0 10 0 9 0 13 0 12 0 11 0 15 1 14 1 13 1 15 0 13 0 11 0 15 2 8 2 6 2 8 3 0 3 7 3 0 4 9 4 10 4 10 2 2 2 1 2 11 5 12 5 2 5 12 6 4 6 3 6 13 7 14 7 4 7 14 8 6 8 5 8 15 0 9 0 8 0 7 2 6 2 8 2 9 9 0 9 8 9 1 10 0 10 10 10 11 2 2 2 10 2 3 11 2 11 12 11 13 12 4 12 12 12 5 13 4 13 14 13 15 14 6 14 14 14</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="LWMobj" name="LWMobj" type="NODE">
+        <matrix sid="transform">0.001 0 0 0 0 0.001 0 0 0 0 0.001 0 0 0 0 1</matrix>
+        <instance_geometry url="#LWMobj-mesh" name="LWMobj">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="YELLOW-material" target="#YELLOW-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
