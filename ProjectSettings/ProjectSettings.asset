@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: vanutella
-  productName: Quest_Test_Cube
+  productName: nostalgia
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -139,8 +139,12 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 11400000, guid: 3ae869f196f15174d95bfe9e9e6d7b0f, type: 2}
   - {fileID: 7782548268848548159, guid: fa9b96e40eb9e5841a1f42dec2fdaeec, type: 2}
+  - {fileID: 11400000, guid: b11d710c001d6c24e9ed7f7303927722, type: 2}
   - {fileID: 11400000, guid: 9c90ed9ad51a4ab478e4428a5373b067, type: 2}
+  - {fileID: 11400000, guid: 0aca6016e83fdda44823cbcf12217438, type: 2}
   - {fileID: -1607697626046520203, guid: 4f914661adb76fc4ba39a86dc8c2dd09, type: 2}
+  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
+  - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -161,7 +165,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.vanutella.Quest_Test_Cube
+    Android: com.vanutella.nostalgia
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -169,7 +173,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 29
+  AndroidMinSdkVersion: 31
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
   aotOptions: 
