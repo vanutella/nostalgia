@@ -1,0 +1,44 @@
+
+newmtl 04c8a7db-c53b-4790-bc7a-f4e7b0af3337_FF0000
+Kd  01 00 00
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl d0ab91cd-4802-4cdc-97f0-5351002a1b4f_0000FF
+Kd  00 00 01
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl 03cce9fd-9d36-4113-b4f1-97b1b43bd51c_FF7F00
+Kd  01 0.4980392 00
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl a2f06cca-5640-4d9e-a411-c8b1d52be962_7F00FF
+Kd  0.4980392 00 01
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+

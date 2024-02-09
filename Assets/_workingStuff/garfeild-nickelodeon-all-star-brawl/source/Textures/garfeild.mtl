@@ -1,0 +1,28 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Orb
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 0.948113 0.948113
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -bm 0.000000 Orb_Normal.png
+map_Kd Orb_Albedo.png
+map_Ks Orb_Specular.png
+
+newmtl Orb.001
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 0.948113 0.948113
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -bm 0.000000 Orb_Normal.png
+map_Kd Orb_Albedo.png
+map_Ks Orb_Specular.png

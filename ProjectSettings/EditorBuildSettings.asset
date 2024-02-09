@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Oculus/VR/Scenes/Cubes.unity
     guid: d920b3d2525670f4abad3d20eda3b349
   - enabled: 0
-    path: Assets/Scenes/ObjectsLaidOut.unity
+    path: Assets/Scenes/Scene_ObjectsLaidOut.unity
     guid: 53aaefe94b6deeb4ab969b4457c61f30
   - enabled: 1
-    path: Assets/Scenes/FloatingItems.unity
+    path: Assets/Scenes/Scene_FloatingItems.unity
     guid: adce4d6f9a8aa4f499c0dc4362114b53
   - enabled: 1
     path: Assets/Oculus/Interaction/Samples/Scenes/Examples/RayExamples.unity

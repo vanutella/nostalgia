@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3210999555325282417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.666802
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.42719746
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 81.47136
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7013892
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7127785
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90.923
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6722085885383957590, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -556865469374605661, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+      propertyPath: m_Name
+      value: Nintendo DS_JEWEL_Sketchfab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: -7769951421894727821, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+    - {fileID: -8700617353114198275, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+    - {fileID: 2654713335656134247, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+    - {fileID: 8484105776399286489, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+    - {fileID: -8582407930827941612, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+    - {fileID: -168051006817133204, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 80b4a94e1e8554498bf0e2ac358c2904, type: 3}

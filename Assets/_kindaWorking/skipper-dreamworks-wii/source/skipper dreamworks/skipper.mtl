@@ -1,0 +1,12 @@
+# Blender 4.0.1 MTL File: 'None'
+# www.blender.org
+
+newmtl skipper_texture.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tex1_128x128_m_bad496a0dfc5528e_14.png
